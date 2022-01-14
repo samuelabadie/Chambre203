@@ -11,6 +11,7 @@ public class KeyChoice : MonoBehaviour
     // Update is called once per frame
     public void KeyInput() //Gauche Droite
     {
+
         while (choiceMade == false)
         {
             if (Input.GetKey(KeyCode.LeftArrow))

@@ -971,7 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747fc3cfad63247f29fb75d9a88df4a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a: {fileID: 0}
+  a: {fileID: 819887974}
   game: {fileID: 0}
   choiceMade: 0
 --- !u!1 &1672949030

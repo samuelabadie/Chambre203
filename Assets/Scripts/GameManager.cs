@@ -23,6 +23,18 @@ public class GameManager : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            Debug.Log("Left");
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            Debug.Log("Right");
+        }
+    }
+
     public void UpdateCalcul()
     {
         Debug.Log("Update");
