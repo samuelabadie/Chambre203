@@ -23,10 +23,6 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void Update()
-    {
-        key.KeyInput();
-    }
     public void UpdateCalcul()
     {
         Debug.Log("Update");

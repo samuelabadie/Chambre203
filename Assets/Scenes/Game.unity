@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1672949030}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &160801890
@@ -598,6 +598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 0
   score: 0
+  key: {fileID: 1346006007}
   a: {fileID: 819887974}
   b: {fileID: 391037052}
   left: {fileID: 1342578727}
@@ -972,6 +973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   a: {fileID: 0}
   game: {fileID: 0}
+  choiceMade: 0
 --- !u!1 &1672949030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 0
   score: 0
+  key: {fileID: 1346006007}
   a: {fileID: 819887974}
   b: {fileID: 391037052}
   left: {fileID: 1342578727}
