@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int level, score = 0;
+    public KeyChoice key;
     public NumberGenerator a;
     public PrintCalcul b;
     public AnswerLeftDoor left;
@@ -22,16 +23,17 @@ public class GameManager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-
+        key.KeyInput();
     }
-    void UpdateCalcul()
+    public void UpdateCalcul()
     {
+        Debug.Log("Update");
         a.numberGen();
-        print(b.PrintClc());
+        b.PrintClc();
         left.PrintAnswer();
+        right.PrintAnswer();
     }
 
 }

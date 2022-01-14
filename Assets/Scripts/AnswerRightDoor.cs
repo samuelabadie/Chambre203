@@ -6,7 +6,7 @@ using TMPro;
 public class AnswerRightDoor : MonoBehaviour
 {
 
-    public NumberGenerator a; //Bidule Bidule
+    public NumberGenerator a; 
     public TMP_Text Answer;
 
     void Start()
