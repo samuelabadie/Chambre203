@@ -22,6 +22,6 @@ public class KeyBindScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(keys["Gauche"])) ;   
     }
 }
