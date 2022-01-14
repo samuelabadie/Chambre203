@@ -41,7 +41,7 @@ public class KeyBindScript : MonoBehaviour
     {
         if (currentKey != null)
         {
-            Event e = Event.
+            Event e = Event.current;
             if (e.isKey)
             {
                 keys[currentKey.name] = e.keyCode;
