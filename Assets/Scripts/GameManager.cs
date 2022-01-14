@@ -25,18 +25,20 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            Debug.Log("Left");
+            key.Left();
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            Debug.Log("Right");
+            key.Right();
         }
     }
 
     public void UpdateCalcul()
     {
+        level += 1;
+        score += 1;
         Debug.Log("Update");
         a.numberGen();
         b.PrintClc();
