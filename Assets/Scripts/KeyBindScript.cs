@@ -14,11 +14,11 @@ public class KeyBindScript : MonoBehaviour
     {
         keys.Add("Gauche", KeyCode.LeftArrow);
         keys.Add("Droite", KeyCode.RightArrow);
-        keys.Add("Pause", KeyCode.Escape);
+        keys.Add("Menu", KeyCode.Escape);
 
         left.text = keys["Gauche"].ToString();
         right.text = keys["Droite"].ToString();
-        pause.text = keys["Pause"].ToString();
+        pause.text = keys["Menu"].ToString();
     }
 
     // Update is called once per frame
@@ -26,15 +26,15 @@ public class KeyBindScript : MonoBehaviour
     {
         if (Input.GetKeyDown(keys["Gauche"]))
         {
-            Debug.Log("Gauche");
+            Debug.Log("Gauche"); //à lier avec NextLevel() et le GameOver()
         }
         if (Input.GetKeyDown(keys["Droite"]))
         {
             Debug.Log("Droite");
         }
-        if (Input.GetKeyDown(keys["Pause"]))
+        if (Input.GetKeyDown(keys["Menu"]))
         {
-            Debug.Log("Pause");
+            Debug.Log("Menu");
         }
     }
 

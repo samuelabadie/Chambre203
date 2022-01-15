@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Text;
+using UnityEngine.Windows.Speech;
 
 public class Voice : MonoBehaviour
 {
-    public string[] keywords = new string[] { "up", "down", "left", "right" };
+    public string[] keywords = new string[] { "left", "right", "menu"};
     public ConfidenceLevel confidence = ConfidenceLevel.Medium;
     public float speed = 1;
 
