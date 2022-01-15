@@ -16,7 +16,7 @@ public class KeyChoice : MonoBehaviour
         }
         else if (a.order == 1)
         {
-            GameOver();
+            game.Over = true;
         }
     }
 
@@ -24,7 +24,7 @@ public class KeyChoice : MonoBehaviour
     {
         if (a.order == 0)
         {
-            GameOver();
+            game.Over = true;
         }
         else if (a.order == 1)
         {
