@@ -5,45 +5,35 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int level, score = 0;
-    public KeyChoice key;
     public NumberGenerator a;
     public PrintCalcul b;
     public AnswerLeftDoor left;
     public AnswerRightDoor right;
+    public bool Over = false;
 
     // Start is called before the first frame update
     void Start()
     {
         level = 0;
         score = 0;
-        a.numberGen();
+        a.numberGen();  
         b.PrintClc();
         left.PrintAnswer();
         right.PrintAnswer();
 
     }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            key.Left();
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            key.Right();
-        }
-    }
 
+    }
     public void UpdateCalcul()
     {
-        level += 1;
-        score += 1;
-        Debug.Log("Update");
         a.numberGen();
-        b.PrintClc();
+        print(b.PrintClc());
         left.PrintAnswer();
-        right.PrintAnswer();
     }
+
 
 }
