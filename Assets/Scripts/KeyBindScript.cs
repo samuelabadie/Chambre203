@@ -8,6 +8,7 @@ public class KeyBindScript : MonoBehaviour
     private Dictionary<string, KeyCode> keys = new Dictionary<string, KeyCode>();
     public Text left, right, pause;
     private GameObject currentKey;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,9 @@ public class KeyBindScript : MonoBehaviour
             Debug.Log("Pause");
         }
     }
+
+
+
 
     private void OnGUI()
     {
