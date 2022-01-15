@@ -251,7 +251,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 352572719}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 15075594}
+        m_TargetAssemblyTypeName: KeyBindScript, Assembly-CSharp
+        m_MethodName: changeKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1847521261}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &352572719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,7 +688,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 561520331}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 15075594}
+        m_TargetAssemblyTypeName: KeyBindScript, Assembly-CSharp
+        m_MethodName: changeKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 943248916}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &561520331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,7 +1008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224.1606, y: -8.706789}
+  m_AnchoredPosition: {x: -117, y: -22}
   m_SizeDelta: {x: 72.9566, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962367382
@@ -1328,7 +1352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224.1606, y: -63.4068}
+  m_AnchoredPosition: {x: -117, y: -76.70001}
   m_SizeDelta: {x: 72.9566, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710458921
@@ -1454,7 +1478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224.1606, y: 46.493217}
+  m_AnchoredPosition: {x: -117, y: 33.200005}
   m_SizeDelta: {x: 72.9566, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796006309
@@ -1660,7 +1684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1956968105}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 15075594}
+        m_TargetAssemblyTypeName: KeyBindScript, Assembly-CSharp
+        m_MethodName: changeKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1026553969}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1956968105
 MonoBehaviour:
   m_ObjectHideFlags: 0
