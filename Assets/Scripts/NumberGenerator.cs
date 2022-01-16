@@ -10,11 +10,8 @@ public class NumberGenerator : MonoBehaviour
 
     public void numberGen()
     {
-        Debug.Log("'Launch NG");
         operationVal = Random.Range(0, 500); //Obtenir la premi?re valeur de l'op?ration
         typeCalc = Random.Range(0, 2); //Obtenir type de calcul (si addition ou soustraction)
-
-        Debug.Log(good);
 
         if (typeCalc == 0) //Addition
         {
@@ -47,6 +44,5 @@ public class NumberGenerator : MonoBehaviour
         int[] res = {operationVal, good, bad, typeCalc, order};
         return res;
     }
-
 
 }
